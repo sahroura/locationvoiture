@@ -22,7 +22,7 @@ public class Authentification {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/locations","root","");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/location","root","");
 			System.out.println("ça passe 2");
 			 
 			selectStatement = conn.createStatement();

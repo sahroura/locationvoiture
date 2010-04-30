@@ -16,7 +16,7 @@ public void nouveau(String immatr,int cat,String modele,int nbreplace) {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/locations","root","");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/location","root","");
 			System.out.println("ça passe");
 			 
 			selectStatement = conn.createStatement();
